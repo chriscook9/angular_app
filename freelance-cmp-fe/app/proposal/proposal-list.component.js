@@ -10,9 +10,9 @@ var core_1 = require("@angular/core");
 var proposal_1 = require("./proposal");
 var ProposalListComponent = /** @class */ (function () {
     function ProposalListComponent() {
-        this.proposalOne = new proposal_1.Proposal(15, 'Xcite Comm', 'http://portfolio,chriscook.com', 'Ruby on Rails', 150, 120, 15, 'sadf@test.com');
-        this.proposalTwo = new proposal_1.Proposal(90, 'Seven Comm', 'http://portfolio,chriscook.com', 'Ruby on Rails', 150, 120, 15, 'sadf@test.com');
-        this.proposalThree = new proposal_1.Proposal(60, 'New Star Comm.', 'http://portfolio,chriscook.com', 'Ruby on Rails', 150, 120, 15, 'sadf@test.com');
+        this.proposalOne = new proposal_1.Proposal(15, 'Abc Company', 'http://portfolio.jordanhudgens.com', 'Ruby on Rails', 150, 120, 15, 'jordan@devcamp.com');
+        this.proposalTwo = new proposal_1.Proposal(99, 'XYZ Company', 'http://portfolio.jordanhudgens.com', 'Ruby on Rails', 150, 120, 15, 'jordan@devcamp.com');
+        this.proposalThree = new proposal_1.Proposal(300, 'Something Company', 'http://portfolio.jordanhudgens.com', 'Ruby on Rails', 150, 120, 15, 'jordan@devcamp.com');
         this.proposals = [
             this.proposalOne,
             this.proposalTwo,
@@ -23,7 +23,8 @@ var ProposalListComponent = /** @class */ (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'proposal-list',
-            templateUrl: 'proposal-list.component.html'
+            templateUrl: 'proposal-list.component.html',
+            styleUrls: ['proposal-list.component.css']
         })
     ], ProposalListComponent);
     return ProposalListComponent;

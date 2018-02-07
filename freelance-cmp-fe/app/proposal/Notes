@@ -1,0 +1,27 @@
+#Players must place 5 ships which vary in size
+#Destroyer:2
+#Submarine:3
+#Cruise:3
+#Battleship:4
+#Carrier:5
+
+#Ships cannot hang over the boards
+#ships cannot be placed on top of other ships
+#Ships can be placed either vertically or horizontally on the grid, not diagonally.
+#When ship is placed, all values are changed to indicate that a ship exists in those spaces. 
+
+#information we need from the user:
+#Is the selected ship being placed horizontally or vertically?
+#Where will the origin of the ship be placed?(first space of the ship)
+
+#Methods
+#a method that places a ships origin on designated spot and flips the values horizoontally or vertically. 
+
+
+
+
+
+
+
+
+
